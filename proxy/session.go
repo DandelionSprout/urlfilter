@@ -160,6 +160,8 @@ var fileExtensions = map[string]rules.RequestType{
 	".tiff": rules.TypeImage,
 	".psd":  rules.TypeImage,
 	".ico":  rules.TypeImage,
+	".jfif":  rules.TypeImage,
+	".apng":  rules.TypeImage,
 	// $stylesheet
 	".css":  rules.TypeStylesheet,
 	".less": rules.TypeStylesheet,
@@ -185,6 +187,7 @@ var fileExtensions = map[string]rules.RequestType{
 	".vbm":   rules.TypeMedia,
 	".mkv":   rules.TypeMedia,
 	".gifv":  rules.TypeMedia,
+	".ts":  rules.TypeMedia,
 	// $font
 	".ttf":   rules.TypeFont,
 	".otf":   rules.TypeFont,
